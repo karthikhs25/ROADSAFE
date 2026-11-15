@@ -1,79 +1,261 @@
 <div align="center">
 
-# 🛡️ ROADSAFE
+<a href="https://roadsafe-intelligence.streamlit.app/">
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:07111F,45:10334A,100:126B78&text=ROADSAFE%20INTELLIGENCE&fontColor=EAF7FF&fontSize=39&fontAlignY=43&desc=ROAD%20SAFETY%20%2F%20ACCIDENT%20ANALYTICS%20%2F%20VISUAL%20INTELLIGENCE&descAlignY=63&descSize=13&stroke=48D8E8&strokeWidth=1" width="100%" alt="ROADSAFE Intelligence banner" />
+</a>
 
-### Smart Road Accident Data Intelligence & Visualization System
+<br>
 
-**A modern, interactive analytics dashboard for exploring road safety trends across India.**
+<a href="https://roadsafe-intelligence.streamlit.app/">
+  <img src="https://img.shields.io/badge/OPEN-LIVE%20DASHBOARD-35CBEA?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=101D2B" alt="Open live dashboard" />
+</a>
+<a href="https://github.com/karthikhs25/ROADSAFE">
+  <img src="https://img.shields.io/badge/VIEW-SOURCE%20CODE-9B8CFF?style=for-the-badge&logo=github&logoColor=white&labelColor=101D2B" alt="View source code" />
+</a>
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/python/)
-![Status](https://img.shields.io/badge/Status-Project%20Demo-22C55E)
+<br><br>
 
-**[Features](#-features) · [Dashboard Preview](#-dashboard-preview) · [Getting Started](#-getting-started) · [Data Sources](#-data-sources--limitations)**
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/PYTHON-3.10%2B-9CCBFF?style=for-the-badge&logo=python&logoColor=white&labelColor=101D2B" alt="Python" /></a>
+<a href="https://streamlit.io/"><img src="https://img.shields.io/badge/STREAMLIT-APP-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=101D2B" alt="Streamlit" /></a>
+<a href="https://plotly.com/python/"><img src="https://img.shields.io/badge/PLOTLY-INTERACTIVE-9B8CFF?style=for-the-badge&logo=plotly&logoColor=white&labelColor=101D2B" alt="Plotly" /></a>
+<img src="https://img.shields.io/badge/DATA-HISTORICAL%20REPORTS-4ED6B3?style=for-the-badge&labelColor=101D2B" alt="Historical report-based data" />
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=900&color=62D9E8&center=true&vCenter=true&width=760&lines=Explore+how+road+accidents+change+over+time.;Compare+regions%2C+roads+and+road+users.;Turn+historical+statistics+into+clear+insights." alt="Animated ROADSAFE tagline" />
+
+<br>
+
+**A data-driven road safety intelligence and visualization dashboard for India.**
+
+[Live dashboard](https://roadsafe-intelligence.streamlit.app/) · [Source code](https://github.com/karthikhs25/ROADSAFE) · [Overview](#01--overview) · [Dashboard intelligence](#02--dashboard-intelligence) · [Data logic](#05--data-logic) · [Run locally](#08--run-locally) · [Limitations](#10--limitations)
 
 </div>
 
 ---
 
-## ✨ Overview
+<div align="center">
 
-**ROADSAFE** transforms historical Indian road accident data into an interactive, visual dashboard. It helps users explore changes over time, compare states and road categories, examine collision patterns, and understand reported road-user fatalities.
+### UNDERSTANDING ROAD SAFETY THROUGH DATA
 
-The interface features a dark navy theme, gradient highlights, KPI cards, and interactive charts. ROADSAFE is an **exploratory analytics project**, not a live crash-monitoring or accident-prediction service.
+</div>
 
-## 📸 Dashboard Preview
+## `01` / Overview
 
-> Add your own full-page ROADSAFE screenshot to `assets/dashboard.png` to display it here.
+**ROADSAFE — Smart Road Accident Data Intelligence and Visualization System** is an interactive Streamlit dashboard that transforms historical Indian road accident statistics into accessible visual analysis.
 
-<!-- Remove the HTML comment below after adding assets/dashboard.png.
-![ROADSAFE Premium Dashboard](assets/dashboard.png)
--->
+Instead of reading disconnected tables, users can examine time trends, compare state-level outcomes, investigate road and collision categories, and explore reported road-user and safety-device statistics in one interface.
 
-## 🚀 Features
+<table>
+<tr>
+<td width="33%" align="center"><h2>09</h2><strong>Curated datasets</strong><br><sub>Different analytical perspectives</sub></td>
+<td width="33%" align="center"><h2>12</h2><strong>Dashboard sections</strong><br><sub>Visual analytics and data explorer</sub></td>
+<td width="33%" align="center"><h2>2012–2023</h2><strong>Combined year coverage</strong><br><sub>Varies by dataset</sub></td>
+</tr>
+</table>
 
-| Module | What it shows |
-|---|---|
-| 📊 Executive overview | Summary KPI cards for the selected reporting year |
-| 📈 Accident trajectory | National accident and fatality trends |
-| 🗓️ Monthly intelligence | Monthly patterns and year-by-month heatmap |
-| 🛣️ Road categories | National Highways, State Highways, and Other Roads |
-| 🗺️ State comparison | State-wise accident and fatality comparisons (charts) |
-| 👥 Road-user analysis | Fatalities by road-user category |
-| 💥 Collision analysis | Accident distribution by collision type |
-| 🪖 Safety devices | Reported helmet and seat-belt non-use outcomes |
-| 🔀 Junction analysis | Accident statistics by junction type for 2019 |
-| 🚦 Historical context | Historical vehicle and road safety indicators |
-| 💡 Automated findings | Data-driven highlights for selected years |
-| 📥 Data explorer | Browse tables and download CSV files |
+> [!IMPORTANT]
+> **HISTORICAL DATA — NOT LIVE INCIDENT MONITORING.** ROADSAFE uses published road accident statistics and supplied historical CSV tables. Dataset years, units, and geographical coverage differ. Counts do not by themselves measure individual risk or establish accident causes.
 
-### Design highlights
+## `02` / Dashboard intelligence
 
-- Premium dark navy interface with cyan and violet accents
-- Responsive sidebar controls and a gradient hero section
-- Interactive Plotly area, bar, donut, treemap, and heatmap charts
-- Separate handling of national and state-level datasets
+Different visualizations help answer different road safety questions.
 
-## 🧰 Tech Stack
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **Python** — application language
-- **Streamlit** — interactive web interface
-- **Pandas** — data processing and filtering
-- **Plotly** — interactive data visualizations
-- **CSV** — local datasets
+### ACCIDENT TRAJECTORY
 
-## 📁 Project Structure
+Annual national accident and fatality trends, derived from the available monthly records.
+
+</td>
+<td width="50%" valign="top">
+
+### MONTHLY PATTERNS
+
+Monthly trend lines and year-by-month heatmaps reveal seasonal variation in reported counts.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ROAD CATEGORY MIX
+
+Compare accidents, fatalities and injuries across National Highways, State Highways and Other Roads where available.
+
+</td>
+<td width="50%" valign="top">
+
+### STATE INTELLIGENCE
+
+Explore state/UT fatality trends and compare reported state accident counts for their respective available years.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### REGIONAL TREEMAP
+
+A visual breakdown of state-level accident counts for supported historical years.
+
+</td>
+<td width="50%" valign="top">
+
+### ROAD-USER OUTCOMES
+
+Compare fatalities by victim road-user category, without confusing victim categories with crash-causing vehicles.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### COLLISION INTELLIGENCE
+
+Compare reported collision types using bar charts and treemap views.
+
+</td>
+<td width="50%" valign="top">
+
+### SAFETY-DEVICE OUTCOMES
+
+Review reported fatality and injury figures associated with helmet and seat-belt non-use.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### JUNCTION ANALYSIS
+
+Explore 2019 accident distributions by junction type and reporting location.
+
+</td>
+<td width="50%" valign="top">
+
+### AUTOMATED FINDINGS & EXPORT
+
+See selected-year highlights, inspect source tables, and download CSV datasets.
+
+</td>
+</tr>
+</table>
+
+## `03` / Key indicators
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%"><sub>01 / ACCIDENTS</sub><h2>Count</h2><strong>Reported accidents</strong><br><sub>Sum of available monthly values</sub></td>
+<td align="center" width="25%"><sub>02 / FATALITIES</sub><h2>Count</h2><strong>Reported deaths</strong><br><sub>Sum of available monthly values</sub></td>
+<td align="center" width="25%"><sub>03 / COVERAGE</sub><h2>States</h2><strong>State / UT records</strong><br><sub>Available for selected year</sub></td>
+<td align="center" width="25%"><sub>04 / INFRASTRUCTURE</sub><h2>Roads</h2><strong>Road categories</strong><br><sub>Available for selected year</sub></td>
+</tr>
+</table>
+
+</div>
+
+> [!NOTE]
+> Dashboard KPI values change with the reporting year. An unavailable dataset is shown as unavailable rather than replaced with an invented figure. State filters apply to state-level views, not national totals.
+
+## `04` / How the data moves
+
+ROADSAFE loads curated CSV tables, validates their structure, applies the relevant year and state filters, and generates interactive visualizations and descriptive findings.
+
+```mermaid
+flowchart LR
+    A["Historical road accident reports<br/>and source CSV tables"] --> B["Dataset preparation<br/>cleaning · column standardization"]
+    B --> C["Curated CSV datasets<br/>data/ directory"]
+    C --> D["Streamlit controls<br/>year · metric · states"]
+    D --> E["Indicators<br/>accidents · fatalities · coverage"]
+    D --> F["Visual analytics<br/>trends · heatmaps · treemaps"]
+    D --> G["Findings and exports<br/>observations · CSV downloads"]
+```
+
+## `05` / Data logic
+
+### Data coverage
+
+| Dataset | Years | Purpose |
+|:--|:--|:--|
+| `road_accidents.csv` | 2016–2019 | State/UT accident counts |
+| `state_fatalities.csv` | 2019–2023 | State/UT fatality counts |
+| `monthly_accidents.csv` | 2019–2023 | Monthly national accident and fatality trends |
+| `road_types.csv` | 2021–2023 | Road-category comparisons |
+| `road_user_fatalities.csv` | 2022–2023 | Fatalities by victim road-user category |
+| `collision_types.csv` | 2022–2023 | Collision-type outcomes |
+| `safety_device_totals.csv` | 2023 | Helmet and seat-belt non-use outcomes |
+| `junction_types_2019.csv` | 2019 | Junction-category outcomes |
+| `historical_vehicle_context.csv` | 2012–2023 | Historical national vehicle/accident context |
+
+### Processing principles
+
+- Read local CSV files using **Pandas**.
+- Standardize column names and convert relevant numeric fields.
+- Keep each dataset's original reporting years and units explicit.
+- Use national tables for national charts and state tables for state comparisons.
+- Show an availability message when a selected year has no compatible records.
+- Avoid treating absolute counts as population-adjusted or vehicle-adjusted risk rates.
+
+### Source discrepancy
+
+The monthly accident figures for **2021** sum to **412,632**, while the source report lists an annual total of **412,432**. ROADSAFE retains the supplied monthly values rather than silently changing them.
+
+## `06` / Technology
+
+<div align="center">
+
+| APPLICATION | DATA PROCESSING | VISUALIZATION |
+|:---:|:---:|:---:|
+| Python · Streamlit | Pandas · CSV | Plotly |
+
+</div>
+
+| Technology | Responsibility |
+|:--|:--|
+| **Python** | Application logic and analysis |
+| **Streamlit** | Interactive interface, filters and downloads |
+| **Pandas** | Data loading, aggregation and transformations |
+| **Plotly** | Interactive trends, bars, donuts, heatmaps and treemaps |
+| **CSV** | Portable historical data files |
+| **GitHub** | Source control and project documentation |
+| **Streamlit Community Cloud** | Web application hosting |
+
+## `07` / Live deployment
+
+ROADSAFE is hosted on **Streamlit Community Cloud**.
+
+<div align="center">
+
+### [LAUNCH THE ROADSAFE LIVE DASHBOARD](https://roadsafe-intelligence.streamlit.app/)
+
+<a href="https://roadsafe-intelligence.streamlit.app/"><img src="https://img.shields.io/badge/LAUNCH-ROADSAFE%20DASHBOARD-35CBEA?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=101D2B" alt="Launch ROADSAFE dashboard" /></a>
+
+</div>
+
+The deployed app reads the files committed to this repository. Changes to local CSV files will not appear on the hosted dashboard until the updated files are pushed to GitHub and the deployment refreshes.
+
+## `08` / Run locally
+
+### Requirements
+
+- Python 3.10 or later
+- pip
+- Project source code and the `data/` directory
+
+### Project structure
 
 ```text
 ROADSAFE/
+│
 ├── app.py
-├── requirements.txt
 ├── README.md
-├── .gitignore
-├── assets/
-│   └── .gitkeep
+├── requirements.txt
+│
 └── data/
     ├── road_accidents.csv
     ├── state_fatalities.csv
@@ -83,106 +265,70 @@ ROADSAFE/
     ├── collision_types.csv
     ├── safety_device_totals.csv
     ├── junction_types_2019.csv
-    ├── historical_vehicle_context.csv
-    └── DATA_DICTIONARY.csv
+    └── historical_vehicle_context.csv
 ```
 
-## ⚙️ Getting Started
-
-### Prerequisites
-
-Install [Python 3.10+](https://www.python.org/downloads/) and [Git](https://git-scm.com/downloads).
-
-### 1. Clone the repository
+### Launch
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ROADSAFE.git
+# Clone the repository
+git clone https://github.com/karthikhs25/ROADSAFE.git
 cd ROADSAFE
-```
 
-Replace `YOUR_USERNAME` with your GitHub username.
-
-### 2. Create a virtual environment (recommended)
-
-**Windows PowerShell:**
-
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-```
-
-**macOS / Linux:**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
+# Install dependencies
 python -m pip install -r requirements.txt
-```
 
-### 4. Launch the dashboard
-
-```bash
+# Run the dashboard
 python -m streamlit run app.py
 ```
 
-Open **http://localhost:8501** in your browser.
+Open the address printed by Streamlit, usually `http://localhost:8501`.
 
-## 📚 Data Sources & Limitations
+## `09` / Interpreting the findings
 
-The dashboard uses cleaned historical datasets derived from supplied CSV files and tables in the **Ministry of Road Transport and Highways (MoRTH), _Road Accidents in India 2023_** report.
+ROADSAFE highlights patterns such as the highest recorded accident month, the road category with the largest reported accident count, and the state/UT with the highest reported fatalities for the selected year, where the relevant data exists.
 
-| Dataset | Coverage |
-|---|---|
-| State-wise accidents | 2016–2019 |
-| State-wise fatalities | 2019–2023 |
-| Monthly accident trends | 2019–2023 |
-| Road categories | 2021–2023 |
-| Road-user fatalities | 2022–2023 |
-| Collision types | 2022–2023 |
-| Safety-device outcomes | 2023 |
-| Junction statistics | 2019 |
-| Historical vehicle context | 2012–2023 |
+A larger accident count does **not** automatically mean a location or road category is inherently more dangerous. Differences in population, traffic volume, road length, reporting practices and exposure can affect totals. The visualizations support exploration, not causal claims.
 
-**Interpretation notes:**
+## `10` / Limitations
 
-- The data is historical, not live.
-- National statistics are not filtered by state selections.
-- Different datasets cover different years and units; their totals should not be combined indiscriminately.
-- State-level accident counts and state-level fatality counts have different time coverage.
-- The published 2021 monthly accident values sum to **412,632**, while the reported annual total is **412,432**; the original monthly entries are retained.
-- Counts do not represent population-normalized risk or establish the causes of accidents.
+- The dashboard uses historical published statistics; it is **not** a live crash detection or emergency response system.
+- Different datasets cover different years, geographical levels and reporting units.
+- State-level accident counts and fatality counts do not have identical year coverage.
+- Road-user categories describe victims, not necessarily vehicles responsible for collisions.
+- Some national historical vehicle figures are rounded to thousands.
+- The 2021 monthly-versus-annual accident total discrepancy is retained and disclosed.
+- The dashboard does not calculate standardized risk rates unless an appropriate denominator is available.
+- Observed correlations and category differences do not establish causes.
 
-See [`data/DATA_DICTIONARY.csv`](data/DATA_DICTIONARY.csv) for column definitions.
+## `11` / Future scope
 
-## 🧭 Roadmap
+- Verified geographic maps for Indian states and UTs.
+- Additional harmonized state-level accident, injury and fatality series.
+- Population- or traffic-normalized risk indicators where denominators are reliable.
+- Better dataset quality checks and metadata documentation.
+- More detailed comparisons by weather, road conditions and time of day, subject to source availability.
 
-- [x] Premium Streamlit dashboard
-- [x] Interactive filtering and visualizations
-- [x] Multi-dataset analysis
-- [x] CSV export
-- [ ] Verified geographic India choropleth map
-- [ ] Deployment and public demo link
-- [ ] Additional data validation and tests
+## `12` / Data attribution
 
-## 🤝 Contributing
+**Primary reference:** Ministry of Road Transport and Highways (MoRTH), Government of India — *Road Accidents in India 2023*, alongside the supplied historical CSV tables.
 
-Suggestions, bug reports, and improvements are welcome. Open an issue or submit a pull request.
-
-## 📄 Acknowledgements
-
-Historical road safety data: **Ministry of Road Transport and Highways (MoRTH), Government of India**. This project is an independent educational visualization and is not an official government service.
+The repository is an academic data-visualization project. Source statistics remain attributable to their respective publishers; the dashboard is not an official government service.
 
 ---
 
 <div align="center">
 
-**ROADSAFE — Turning road safety data into actionable understanding.**
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:07111F,50:49D5E5,100:07111F" width="100%" alt="" />
 
-Made with Python · Streamlit · Plotly
+### UNDERSTAND THE DATA. IDENTIFY THE PATTERNS. SUPPORT SAFER ROADS.
+
+**ROADSAFE INTELLIGENCE**
+
+<sub>Academic project · Interactive analytics · Historical Indian road accident data</sub>
+
+<br><br>
+
+<a href="https://roadsafe-intelligence.streamlit.app/"><img src="https://img.shields.io/badge/BUILT%20TO-EXPLORE%20%2F%20COMPARE%20%2F%20UNDERSTAND-14283A?style=for-the-badge&labelColor=0A1422" alt="Explore compare understand" /></a>
 
 </div>
