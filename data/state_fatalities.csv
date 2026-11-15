@@ -1,0 +1,180 @@
+Year,State,Fatalities
+2019,Andhra Pradesh,7984
+2020,Andhra Pradesh,7039
+2021,Andhra Pradesh,8186
+2022,Andhra Pradesh,8293
+2023,Andhra Pradesh,8137
+2019,Arunachal Pradesh,127
+2020,Arunachal Pradesh,73
+2021,Arunachal Pradesh,157
+2022,Arunachal Pradesh,148
+2023,Arunachal Pradesh,145
+2019,Assam,3208
+2020,Assam,2629
+2021,Assam,3036
+2022,Assam,2994
+2023,Assam,3296
+2019,Bihar,7205
+2020,Bihar,6699
+2021,Bihar,7660
+2022,Bihar,8898
+2023,Bihar,8873
+2019,Chhattisgarh,5003
+2020,Chhattisgarh,4606
+2021,Chhattisgarh,5371
+2022,Chhattisgarh,5834
+2023,Chhattisgarh,6166
+2019,Goa,297
+2020,Goa,223
+2021,Goa,226
+2022,Goa,271
+2023,Goa,290
+2019,Gujarat,7390
+2020,Gujarat,6170
+2021,Gujarat,7452
+2022,Gujarat,7618
+2023,Gujarat,7854
+2019,Haryana,5057
+2020,Haryana,4507
+2021,Haryana,4706
+2022,Haryana,4915
+2023,Haryana,4968
+2019,Himachal Pradesh,1146
+2020,Himachal Pradesh,893
+2021,Himachal Pradesh,1052
+2022,Himachal Pradesh,1032
+2023,Himachal Pradesh,889
+2019,Jharkhand,3801
+2020,Jharkhand,3044
+2021,Jharkhand,3513
+2022,Jharkhand,3898
+2023,Jharkhand,4173
+2019,Karnataka,10958
+2020,Karnataka,9760
+2021,Karnataka,10038
+2022,Karnataka,11702
+2023,Karnataka,12321
+2019,Kerala,4440
+2020,Kerala,2979
+2021,Kerala,3429
+2022,Kerala,4317
+2023,Kerala,4080
+2019,Madhya Pradesh,11249
+2020,Madhya Pradesh,11141
+2021,Madhya Pradesh,12057
+2022,Madhya Pradesh,13427
+2023,Madhya Pradesh,13798
+2019,Maharashtra,12788
+2020,Maharashtra,11569
+2021,Maharashtra,13528
+2022,Maharashtra,15224
+2023,Maharashtra,15366
+2019,Manipur,156
+2020,Manipur,127
+2021,Manipur,110
+2022,Manipur,127
+2023,Manipur,73
+2019,Meghalaya,179
+2020,Meghalaya,144
+2021,Meghalaya,187
+2022,Meghalaya,162
+2023,Meghalaya,168
+2019,Mizoram,48
+2020,Mizoram,42
+2021,Mizoram,56
+2022,Mizoram,113
+2023,Mizoram,96
+2019,Nagaland,26
+2020,Nagaland,53
+2021,Nagaland,55
+2022,Nagaland,73
+2023,Nagaland,86
+2019,Odisha,5333
+2020,Odisha,4738
+2021,Odisha,5081
+2022,Odisha,5467
+2023,Odisha,5739
+2019,Punjab,4525
+2020,Punjab,3898
+2021,Punjab,4589
+2022,Punjab,4756
+2023,Punjab,4829
+2019,Rajasthan,10563
+2020,Rajasthan,9250
+2021,Rajasthan,10043
+2022,Rajasthan,11104
+2023,Rajasthan,11762
+2019,Sikkim,73
+2020,Sikkim,47
+2021,Sikkim,56
+2022,Sikkim,92
+2023,Sikkim,57
+2019,Tamil Nadu,18129
+2020,Tamil Nadu,14527
+2021,Tamil Nadu,15384
+2022,Tamil Nadu,17884
+2023,Tamil Nadu,18347
+2019,Telangana,6964
+2020,Telangana,6882
+2021,Telangana,7557
+2022,Telangana,7559
+2023,Telangana,7660
+2019,Tripura,239
+2020,Tripura,192
+2021,Tripura,194
+2022,Tripura,241
+2023,Tripura,261
+2019,Uttarakhand,867
+2020,Uttarakhand,674
+2021,Uttarakhand,820
+2022,Uttarakhand,1042
+2023,Uttarakhand,1054
+2019,Uttar Pradesh,22655
+2020,Uttar Pradesh,19149
+2021,Uttar Pradesh,21227
+2022,Uttar Pradesh,22595
+2023,Uttar Pradesh,23652
+2019,West Bengal,5767
+2020,West Bengal,5128
+2021,West Bengal,5800
+2022,West Bengal,6002
+2023,West Bengal,6027
+2019,Andaman & Nicobar Islands,20
+2020,Andaman & Nicobar Islands,14
+2021,Andaman & Nicobar Islands,20
+2022,Andaman & Nicobar Islands,19
+2023,Andaman & Nicobar Islands,24
+2019,Chandigarh,104
+2020,Chandigarh,53
+2021,Chandigarh,96
+2022,Chandigarh,83
+2023,Chandigarh,67
+2019,Dadra & Nagar Haveli*,49
+2020,Dadra & Nagar Haveli*,64
+2021,Dadra & Nagar Haveli*,76
+2022,Dadra & Nagar Haveli*,90
+2023,Dadra & Nagar Haveli*,74
+2019,Daman & Diu,28
+2019,Delhi,1463
+2020,Delhi,1196
+2021,Delhi,1239
+2022,Delhi,1461
+2023,Delhi,1457
+2019,J & K #,996
+2020,J & K #,728
+2021,J & K #,774
+2022,J & K #,805
+2023,J & K #,893
+2021,Ladakh,56
+2022,Ladakh,62
+2023,Ladakh,59
+2019,Lakshadweep,0
+2020,Lakshadweep,0
+2021,Lakshadweep,1
+2022,Lakshadweep,2
+2023,Lakshadweep,0
+2019,Puducherry,147
+2020,Puducherry,145
+2021,Puducherry,140
+2022,Puducherry,181
+2023,Puducherry,149
